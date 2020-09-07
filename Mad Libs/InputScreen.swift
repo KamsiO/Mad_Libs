@@ -62,6 +62,9 @@ class InputScreen : UIViewController, UITextFieldDelegate{
         statusBarView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         
         
+        overrideUserInterfaceStyle = .light //only use light interface style
+        
+        
         // if-statements to setup the input screen based on which genre the user chose
         if segueIdentifier == "toAdventure" {
             statusBarView.backgroundColor = #colorLiteral(red: 0.5130010247, green: 0.9133928418, blue: 0.03394796699, alpha: 1)

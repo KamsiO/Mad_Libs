@@ -23,7 +23,7 @@ Note: this project can only be accessed by users with Apple devices
 * Install Xcode 10 or higher on your computer
 * From the Mad Libs folder, open the file called Mad Libs.xcodeproj
 * In upper left corner of Xcode, choose which device simulator to run project on, then press play button to build project
-** If you have an iOS device, you may run the app on it by plugging it into your computer and choosing your device in the simulator menu
+  * If you have an iOS device, you may run the app on it by plugging it into your computer and choosing your device in the simulator menu
 * Wait for simulator to load on your computer or open the Mad Libs app on your iOS device. Enjoy!
 
 ## Gameplay
@@ -50,6 +50,7 @@ On the screen where the completed story is displayed, there is a button at the b
 
 ## Author
 Code: Kamsi Oramasionwu
+
 Mad-libs templates: Kamsi Oramasionwu
 
 ## Acknowledgements

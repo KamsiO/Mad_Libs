@@ -31,9 +31,9 @@ In a mad libs app, the user is asked to input a series of different types of wor
 
 iPad Pro 12.9" demo:
 
-![ipad pro demo](<Mad Libs demos>/<ipad demo.gif>)
+![ipad pro demo](demos/ipad.gif)
 
-[Full demo video](<Mad Libs demos>/<Mad Libs shortened.mp4>)
+[Full demo video](demos/full_video.mp4>)
 
 ## Features
 ### Multi-Page App using Segues

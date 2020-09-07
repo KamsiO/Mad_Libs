@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F225273221488700059668B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225272221488700059668B /* AppDelegate.swift */; };
+		3F225275221488700059668B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225274221488700059668B /* ViewController.swift */; };
+		3F225278221488700059668B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F225276221488700059668B /* Main.storyboard */; };
+		3F22527A221488720059668B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F225279221488720059668B /* Assets.xcassets */; };
+		3F225288221488720059668B /* Mad_LibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225287221488720059668B /* Mad_LibsTests.swift */; };
+		3F225293221488720059668B /* Mad_LibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225292221488720059668B /* Mad_LibsUITests.swift */; };
+		3F2252A122148B670059668B /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2252A022148B670059668B /* Animations.swift */; };
+		3F2252A62214B3DD0059668B /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2252A52214B3DD0059668B /* Stories.swift */; };
+		3F84A7D7221AA65100AF89C2 /* InputScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84A7D6221AA65100AF89C2 /* InputScreen.swift */; };
+		3F86317B221B9A4600ED9AA3 /* StoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86317A221B9A4600ED9AA3 /* StoryScreen.swift */; };
+		3F863181221F6CBB00ED9AA3 /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F863180221F6CBB00ED9AA3 /* MusicController.swift */; };
+		5D5E4BCD2505393E008CF055 /* bensound-funnysong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E4BC72505393E008CF055 /* bensound-funnysong.mp3 */; };
+		5D5E4BCE2505393E008CF055 /* bensound-enigmatic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E4BC82505393E008CF055 /* bensound-enigmatic.mp3 */; };
+		5D5E4BCF2505393E008CF055 /* bensound-love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E4BC92505393E008CF055 /* bensound-love.mp3 */; };
+		5D5E4BD02505393E008CF055 /* bensound-ofeliasdream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E4BCA2505393E008CF055 /* bensound-ofeliasdream.mp3 */; };
+		5D5E4BD12505393E008CF055 /* bensound-littleplanet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E4BCB2505393E008CF055 /* bensound-littleplanet.mp3 */; };
+		5D5E4BD22505393E008CF055 /* startSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E4BCC2505393E008CF055 /* startSound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F225284221488720059668B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F225267221488700059668B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F22526E221488700059668B;
+			remoteInfo = "Mad Libs";
+		};
+		3F22528F221488720059668B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F225267221488700059668B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F22526E221488700059668B;
+			remoteInfo = "Mad Libs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F22526F221488700059668B /* Mad Libs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mad Libs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F225272221488700059668B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F225274221488700059668B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F225277221488700059668B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F225279221488720059668B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F22527E221488720059668B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F225283221488720059668B /* Mad LibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mad LibsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F225287221488720059668B /* Mad_LibsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mad_LibsTests.swift; sourceTree = "<group>"; };
+		3F225289221488720059668B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F22528E221488720059668B /* Mad LibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mad LibsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F225292221488720059668B /* Mad_LibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mad_LibsUITests.swift; sourceTree = "<group>"; };
+		3F225294221488720059668B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2252A022148B670059668B /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		3F2252A52214B3DD0059668B /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
+		3F84A7D6221AA65100AF89C2 /* InputScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputScreen.swift; sourceTree = "<group>"; };
+		3F86317A221B9A4600ED9AA3 /* StoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryScreen.swift; sourceTree = "<group>"; };
+		3F863180221F6CBB00ED9AA3 /* MusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
+		5D5E4BC72505393E008CF055 /* bensound-funnysong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-funnysong.mp3"; sourceTree = "<group>"; };
+		5D5E4BC82505393E008CF055 /* bensound-enigmatic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-enigmatic.mp3"; sourceTree = "<group>"; };
+		5D5E4BC92505393E008CF055 /* bensound-love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-love.mp3"; sourceTree = "<group>"; };
+		5D5E4BCA2505393E008CF055 /* bensound-ofeliasdream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-ofeliasdream.mp3"; sourceTree = "<group>"; };
+		5D5E4BCB2505393E008CF055 /* bensound-littleplanet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-littleplanet.mp3"; sourceTree = "<group>"; };
+		5D5E4BCC2505393E008CF055 /* startSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = startSound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F22526C221488700059668B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F225280221488720059668B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F22528B221488720059668B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F225266221488700059668B = {
+			isa = PBXGroup;
+			children = (
+				3F225271221488700059668B /* Mad Libs */,
+				3F225286221488720059668B /* Mad LibsTests */,
+				3F225291221488720059668B /* Mad LibsUITests */,
+				3F225270221488700059668B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F225270221488700059668B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F22526F221488700059668B /* Mad Libs.app */,
+				3F225283221488720059668B /* Mad LibsTests.xctest */,
+				3F22528E221488720059668B /* Mad LibsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F225271221488700059668B /* Mad Libs */ = {
+			isa = PBXGroup;
+			children = (
+				3F86317A221B9A4600ED9AA3 /* StoryScreen.swift */,
+				3F863180221F6CBB00ED9AA3 /* MusicController.swift */,
+				3F84A7D6221AA65100AF89C2 /* InputScreen.swift */,
+				3F2252A52214B3DD0059668B /* Stories.swift */,
+				3F225272221488700059668B /* AppDelegate.swift */,
+				3F225274221488700059668B /* ViewController.swift */,
+				3F225276221488700059668B /* Main.storyboard */,
+				3F2252A022148B670059668B /* Animations.swift */,
+				3F225279221488720059668B /* Assets.xcassets */,
+				3F22527E221488720059668B /* Info.plist */,
+				3F2252A22214B1E10059668B /* Sounds */,
+			);
+			path = "Mad Libs";
+			sourceTree = "<group>";
+		};
+		3F225286221488720059668B /* Mad LibsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F225287221488720059668B /* Mad_LibsTests.swift */,
+				3F225289221488720059668B /* Info.plist */,
+			);
+			path = "Mad LibsTests";
+			sourceTree = "<group>";
+		};
+		3F225291221488720059668B /* Mad LibsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F225292221488720059668B /* Mad_LibsUITests.swift */,
+				3F225294221488720059668B /* Info.plist */,
+			);
+			path = "Mad LibsUITests";
+			sourceTree = "<group>";
+		};
+		3F2252A22214B1E10059668B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5D5E4BC82505393E008CF055 /* bensound-enigmatic.mp3 */,
+				5D5E4BC72505393E008CF055 /* bensound-funnysong.mp3 */,
+				5D5E4BCB2505393E008CF055 /* bensound-littleplanet.mp3 */,
+				5D5E4BC92505393E008CF055 /* bensound-love.mp3 */,
+				5D5E4BCA2505393E008CF055 /* bensound-ofeliasdream.mp3 */,
+				5D5E4BCC2505393E008CF055 /* startSound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F22526E221488700059668B /* Mad Libs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F225297221488720059668B /* Build configuration list for PBXNativeTarget "Mad Libs" */;
+			buildPhases = (
+				3F22526B221488700059668B /* Sources */,
+				3F22526C221488700059668B /* Frameworks */,
+				3F22526D221488700059668B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mad Libs";
+			productName = "Mad Libs";
+			productReference = 3F22526F221488700059668B /* Mad Libs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F225282221488720059668B /* Mad LibsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F22529A221488720059668B /* Build configuration list for PBXNativeTarget "Mad LibsTests" */;
+			buildPhases = (
+				3F22527F221488720059668B /* Sources */,
+				3F225280221488720059668B /* Frameworks */,
+				3F225281221488720059668B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F225285221488720059668B /* PBXTargetDependency */,
+			);
+			name = "Mad LibsTests";
+			productName = "Mad LibsTests";
+			productReference = 3F225283221488720059668B /* Mad LibsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F22528D221488720059668B /* Mad LibsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F22529D221488720059668B /* Build configuration list for PBXNativeTarget "Mad LibsUITests" */;
+			buildPhases = (
+				3F22528A221488720059668B /* Sources */,
+				3F22528B221488720059668B /* Frameworks */,
+				3F22528C221488720059668B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F225290221488720059668B /* PBXTargetDependency */,
+			);
+			name = "Mad LibsUITests";
+			productName = "Mad LibsUITests";
+			productReference = 3F22528E221488720059668B /* Mad LibsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F225267221488700059668B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F22526E221488700059668B = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1160;
+					};
+					3F225282221488720059668B = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1160;
+						TestTargetID = 3F22526E221488700059668B;
+					};
+					3F22528D221488720059668B = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1160;
+						TestTargetID = 3F22526E221488700059668B;
+					};
+				};
+			};
+			buildConfigurationList = 3F22526A221488700059668B /* Build configuration list for PBXProject "Mad Libs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F225266221488700059668B;
+			productRefGroup = 3F225270221488700059668B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F22526E221488700059668B /* Mad Libs */,
+				3F225282221488720059668B /* Mad LibsTests */,
+				3F22528D221488720059668B /* Mad LibsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F22526D221488700059668B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5E4BD02505393E008CF055 /* bensound-ofeliasdream.mp3 in Resources */,
+				5D5E4BCE2505393E008CF055 /* bensound-enigmatic.mp3 in Resources */,
+				5D5E4BCF2505393E008CF055 /* bensound-love.mp3 in Resources */,
+				5D5E4BD22505393E008CF055 /* startSound.mp3 in Resources */,
+				5D5E4BCD2505393E008CF055 /* bensound-funnysong.mp3 in Resources */,
+				3F22527A221488720059668B /* Assets.xcassets in Resources */,
+				3F225278221488700059668B /* Main.storyboard in Resources */,
+				5D5E4BD12505393E008CF055 /* bensound-littleplanet.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F225281221488720059668B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F22528C221488720059668B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F22526B221488700059668B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F84A7D7221AA65100AF89C2 /* InputScreen.swift in Sources */,
+				3F225275221488700059668B /* ViewController.swift in Sources */,
+				3F2252A62214B3DD0059668B /* Stories.swift in Sources */,
+				3F225273221488700059668B /* AppDelegate.swift in Sources */,
+				3F863181221F6CBB00ED9AA3 /* MusicController.swift in Sources */,
+				3F2252A122148B670059668B /* Animations.swift in Sources */,
+				3F86317B221B9A4600ED9AA3 /* StoryScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F22527F221488720059668B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F225288221488720059668B /* Mad_LibsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F22528A221488720059668B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F225293221488720059668B /* Mad_LibsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F225285221488720059668B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F22526E221488700059668B /* Mad Libs */;
+			targetProxy = 3F225284221488720059668B /* PBXContainerItemProxy */;
+		};
+		3F225290221488720059668B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F22526E221488700059668B /* Mad Libs */;
+			targetProxy = 3F22528F221488720059668B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F225276221488700059668B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F225277221488700059668B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F225295221488720059668B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F225296221488720059668B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F225298221488720059668B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23S247D895;
+				INFOPLIST_FILE = "Mad Libs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kamsi.Mad-Libs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F225299221488720059668B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23S247D895;
+				INFOPLIST_FILE = "Mad Libs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kamsi.Mad-Libs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F22529B221488720059668B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mad LibsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kamsi.Mad-LibsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mad Libs.app/Mad Libs";
+			};
+			name = Debug;
+		};
+		3F22529C221488720059668B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mad LibsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kamsi.Mad-LibsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mad Libs.app/Mad Libs";
+			};
+			name = Release;
+		};
+		3F22529E221488720059668B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mad LibsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kamsi.Mad-LibsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mad Libs";
+			};
+			name = Debug;
+		};
+		3F22529F221488720059668B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mad LibsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kamsi.Mad-LibsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mad Libs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F22526A221488700059668B /* Build configuration list for PBXProject "Mad Libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F225295221488720059668B /* Debug */,
+				3F225296221488720059668B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F225297221488720059668B /* Build configuration list for PBXNativeTarget "Mad Libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F225298221488720059668B /* Debug */,
+				3F225299221488720059668B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F22529A221488720059668B /* Build configuration list for PBXNativeTarget "Mad LibsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F22529B221488720059668B /* Debug */,
+				3F22529C221488720059668B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F22529D221488720059668B /* Build configuration list for PBXNativeTarget "Mad LibsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F22529E221488720059668B /* Debug */,
+				3F22529F221488720059668B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F225267221488700059668B /* Project object */;
+}

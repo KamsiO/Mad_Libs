@@ -11,6 +11,7 @@ import UIKit
 
 class Stories {
     
+    // tuples that hold the pronouns for gender that user chooses
     var determinedGender1 = (subjective: "", objective: "", possesive: "")
     var determinedGender2 = (subjective: "", objective: "", possesive: "")
 

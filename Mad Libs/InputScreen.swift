@@ -89,6 +89,7 @@ class InputScreen : UIViewController, UITextFieldDelegate{
             for textField in adventureTextField { // a for loop that makes the text fields on the screen become visible according to how many strings are in the story array
                 if inputNum <= story.count-1{
                     textField.alpha = 1
+                    textField.resignFirstResponder()
                     textField.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
                     inputNum += 1
                 }
@@ -113,6 +114,7 @@ class InputScreen : UIViewController, UITextFieldDelegate{
             for textField in romanceTextField{
                 if inputNum <= story.count-1{
                     textField.alpha = 1
+                    textField.resignFirstResponder()
                     textField.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
                     inputNum += 1
                 }
@@ -137,6 +139,7 @@ class InputScreen : UIViewController, UITextFieldDelegate{
             for textField in mysteryTextField{
                 if inputNum <= story.count-1{
                     textField.alpha = 1
+                    textField.resignFirstResponder()
                     textField.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
                     inputNum += 1
                 }
@@ -161,6 +164,7 @@ class InputScreen : UIViewController, UITextFieldDelegate{
             for textField in thrillerTextField{
                 if inputNum <= story.count-1{
                     textField.alpha = 1
+                    textField.resignFirstResponder()
                     textField.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
                     inputNum += 1
                 }

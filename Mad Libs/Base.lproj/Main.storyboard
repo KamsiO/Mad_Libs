@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -369,7 +368,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="3600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lcq-5H-Ljk">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="Lcq-5H-Ljk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="3580"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IO8-hX-m9l" userLabel="contentView">
@@ -1024,7 +1023,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="3600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XkQ-rQ-cvA">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="XkQ-rQ-cvA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="3580"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V2D-Iv-Fft" userLabel="contentView">
@@ -1547,7 +1546,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="3600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wkb-5b-XW6">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="wkb-5b-XW6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="3580"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GuW-UI-F6u" userLabel="contentView">
@@ -2028,7 +2027,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="3600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhG-A5-2Bu">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="nhG-A5-2Bu">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="3580"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86S-8A-J4W" userLabel="contentView">
@@ -2275,7 +2274,7 @@
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8Vt-W3-wUT">
                                                 <rect key="frame" x="55" y="223.5" width="265" height="32"/>
-                                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <segments>
                                                     <segment title="Man"/>
                                                     <segment title="Woman"/>
@@ -2284,7 +2283,7 @@
                                             </segmentedControl>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5nA-bN-I8I">
                                                 <rect key="frame" x="55" y="372" width="265" height="32"/>
-                                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <segments>
                                                     <segment title="Man"/>
                                                     <segment title="Woman"/>
@@ -2955,10 +2954,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="vtv-wR-5pl"/>
+        <segue reference="qm6-MR-7yR"/>
+        <segue reference="LSJ-GD-6y2"/>
         <segue reference="nTx-q9-MZd"/>
         <segue reference="pJI-7K-sKt"/>
         <segue reference="PI7-5I-pBQ"/>
         <segue reference="KJ5-C2-WyW"/>
-        <segue reference="HdR-yj-NJa"/>
+        <segue reference="RBh-92-VjT"/>
     </inferredMetricsTieBreakers>
 </document>

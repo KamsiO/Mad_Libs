@@ -33,7 +33,7 @@ iPad Pro 12.9" demo:
 
 ![ipad pro demo](demos/ipad.gif)
 
-[Full demo video](demos/full_video.mp4>)
+[Full demo video](demos/full_video.mp4)
 
 ## Features
 ### Multi-Page App using Segues

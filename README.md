@@ -10,7 +10,7 @@ An iOS mad-libs game where users can choose between multiple genres and story te
 * [Acknowledgements](#acknowledgements)
 
 ## Introduction 
-This project was my first dive into developing for iOS after learning Swift. As a first project, I thought it would be interesting to develop a game, and a mad-libs app seemed like a simple game to develop. Though a mad libs app could be as simple as text fields and string interpolation, I decided to take this project to the next level. I experimented with animations, segues, music, and text-to-speech. I also added a combination of features and functions that would minimize how specific a user needs to be when inputting their words while still maintaining the grammar of the story.
+This project was my first dive into developing for iOS after learning Swift. As a first project, I thought it would be interesting to develop a game, and a mad-libs app seemed like a simple game to develop. Though a mad libs app could be as simple as text fields and string interpolation, I decided to take this project to the next level. I experimented with animations, segues, music, and text-to-speech. I also added a combination of features and methods that would minimize how specific a user needs to be when inputting their words while still maintaining the grammar of the story.
 
 ## Built With
 * Swift 4.2.1
@@ -27,7 +27,7 @@ Note: this project can only be accessed by users with Apple devices
 * Wait for simulator to load on your computer or open the Mad Libs app on your iOS device. Enjoy!
 
 ## Gameplay
-In a mad libs app, the user is asked to input a series of different types of words that will then be inserted to a story template, resulting in a fun story. In my mad libs app, users can choose between different genres of story templates: adventure, romance, mystery, or thriller. The adventure and romance genres currently have two stories to choose from each, while the mystery and thriller genres have one each.
+In a mad libs game, the user is asked to input a series of different types of words that will then be inserted to a story template, resulting in a fun story. In my mad libs app, users can choose between different genres of story templates: adventure, romance, mystery, or thriller. The adventure and romance genres currently have two stories to choose from each, while the mystery and thriller genres have one each.
 
 iPad Pro 12.9" demo:
 
@@ -37,16 +37,16 @@ iPad Pro 12.9" demo:
 
 ## Features
 ### Multi-Page App using Segues
-Instead of having the game be on a single page with endless scrolling, I made use of segues, multiple ViewControllers, and segue identifiers to make sure the right information was being sent to the right screen. Each genre gets its own Input screen and story screen which have different themes and music.
+Instead of having the game be on a single page with endless scrolling, I made use of segues, multiple ViewControllers, and segue identifiers to make sure the right information was being sent to the right screen. Each genre gets its own input screen and story screen which have different themes and music.
 
 ### Gender Function
 For stories with characters that the user will create, they can choose the character’s gender using a UISegmentedView. Whichever gender they choose will then influence the content of a dictionary that holds gender pronouns. In this way, all the users have to do is tap which gender they prefer a character to be and all the pronouns for that character that come up in the story will be adjusted accordingly.
 
 ### Smart Input Screen
-Since some genres have multiple templates, the number of words that a user needs to input is different depending on the story. I made use of alpha values and for-loops to show as many text-fields are necessary for the story, depending on which template and genre the user picks. Additionally, I created functions and made use of enabled/disabled buttons to check if the user has inputted all words before moving onto the completed story page. 
+Since some genres have multiple templates, the number of words that a user needs to input is different depending on the story. I made use of alpha values and for-loops to show as many text-fields as necessary for the story, depending on which template and genre the user picks. Additionally, I made use of enabled/disabled buttons to check if the user has inputted all words before moving onto the completed story page. 
 
 ### Text-to-Speech
-On the screen where the completed story is displayed, there is a button at the bottom of the screen that users can tap to read their story out loud. I added this feature in hopes of making the app more accessible-friendly. Tapping the button once will start the text to speech engine, tapping it again will stop the text-to-speech, and tapping once again will start the reading of the story over from the beginning and so on.
+On the screen where the completed story is displayed, there is a button at the bottom of the screen that users can tap to read their story out loud. I added this feature in hopes of improving the app's accessibility. Tapping the button once will start the text to speech engine, tapping it again will stop the text-to-speech, and tapping once again will start the reading of the story over from the beginning and so on.
 
 ## Author
 Code: Kamsi Oramasionwu
